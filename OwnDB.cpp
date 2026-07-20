@@ -27,7 +27,6 @@ bool database::add_table(const std::string& table_name) noexcept
 	try {
 		storage.emplace(table_name, Table_t());
 		schema.emplace(table_name, Table_schema_t());
-		current_table = table_name;
 		return true;
 	}
 	catch (...) {

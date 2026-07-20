@@ -19,10 +19,25 @@ DB_manager::~DB_manager()
 
 bool DB_manager::load() noexcept
 {
+	try {
+		std::string temp;
+		while (true) {
 
+			//чтение названия таблицы
+			database_file >> temp;
+			storage.add_table(temp);
+			storage.open_table(temp);
 
+			//чтение колонок таблицы
+			std::getline(database_file, temp);
 
-	return false;
+		}
+
+		return true;
+	}
+	catch (...) {
+		return false;
+	}
 }
 
 bool DB_manager::save() noexcept
@@ -66,7 +81,7 @@ bool DB_manager::save() noexcept
 				database_file << '\n';
 			}
 
-			database_file << '\n';
+			database_file << "---\n";
 		}
 
 		return true;
