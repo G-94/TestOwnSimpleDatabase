@@ -1,0 +1,4 @@
+D:/Programming/C++/BoostTest/vcpkg_installed/vcpkg/pkgs/boost-static-assert_x64-windows/include/boost/static_assert.hpp
+D:/Programming/C++/BoostTest/vcpkg_installed/vcpkg/pkgs/boost-static-assert_x64-windows/lib/cmake/boost_static_assert-1.85.0/boost_static_assert-targets.cmake
+D:/Programming/C++/BoostTest/vcpkg_installed/vcpkg/pkgs/boost-static-assert_x64-windows/lib/cmake/boost_static_assert-1.85.0/boost_static_assert-config.cmake
+D:/Programming/C++/BoostTest/vcpkg_installed/vcpkg/pkgs/boost-static-assert_x64-windows/lib/cmake/boost_static_assert-1.85.0/boost_static_assert-config-version.cmake

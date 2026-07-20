@@ -1,0 +1,16 @@
+D:/Programming/C++/BoostTest/vcpkg_installed/vcpkg/blds/boost-serialization/x64-windows-dbg/CMakeFiles/tests.dir
+D:/Programming/C++/BoostTest/vcpkg_installed/vcpkg/blds/boost-serialization/x64-windows-dbg/CMakeFiles/check.dir
+D:/Programming/C++/BoostTest/vcpkg_installed/vcpkg/blds/boost-serialization/x64-windows-dbg/CMakeFiles/tests-quick.dir
+D:/Programming/C++/BoostTest/vcpkg_installed/vcpkg/blds/boost-serialization/x64-windows-dbg/CMakeFiles/check-quick.dir
+D:/Programming/C++/BoostTest/vcpkg_installed/vcpkg/blds/boost-serialization/x64-windows-dbg/CMakeFiles/edit_cache.dir
+D:/Programming/C++/BoostTest/vcpkg_installed/vcpkg/blds/boost-serialization/x64-windows-dbg/CMakeFiles/rebuild_cache.dir
+D:/Programming/C++/BoostTest/vcpkg_installed/vcpkg/blds/boost-serialization/x64-windows-dbg/CMakeFiles/list_install_components.dir
+D:/Programming/C++/BoostTest/vcpkg_installed/vcpkg/blds/boost-serialization/x64-windows-dbg/CMakeFiles/install.dir
+D:/Programming/C++/BoostTest/vcpkg_installed/vcpkg/blds/boost-serialization/x64-windows-dbg/CMakeFiles/install/local.dir
+D:/Programming/C++/BoostTest/vcpkg_installed/vcpkg/blds/boost-serialization/x64-windows-dbg/libs/serialization/CMakeFiles/boost_serialization.dir
+D:/Programming/C++/BoostTest/vcpkg_installed/vcpkg/blds/boost-serialization/x64-windows-dbg/libs/serialization/CMakeFiles/boost_wserialization.dir
+D:/Programming/C++/BoostTest/vcpkg_installed/vcpkg/blds/boost-serialization/x64-windows-dbg/libs/serialization/CMakeFiles/edit_cache.dir
+D:/Programming/C++/BoostTest/vcpkg_installed/vcpkg/blds/boost-serialization/x64-windows-dbg/libs/serialization/CMakeFiles/rebuild_cache.dir
+D:/Programming/C++/BoostTest/vcpkg_installed/vcpkg/blds/boost-serialization/x64-windows-dbg/libs/serialization/CMakeFiles/list_install_components.dir
+D:/Programming/C++/BoostTest/vcpkg_installed/vcpkg/blds/boost-serialization/x64-windows-dbg/libs/serialization/CMakeFiles/install.dir
+D:/Programming/C++/BoostTest/vcpkg_installed/vcpkg/blds/boost-serialization/x64-windows-dbg/libs/serialization/CMakeFiles/install/local.dir

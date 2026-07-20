@@ -1,0 +1,6 @@
+D:/Programming/C++/BoostTest/vcpkg_installed/vcpkg/pkgs/boost-static-string_x64-windows/include/boost/static_string/config.hpp
+D:/Programming/C++/BoostTest/vcpkg_installed/vcpkg/pkgs/boost-static-string_x64-windows/include/boost/static_string/static_string.hpp
+D:/Programming/C++/BoostTest/vcpkg_installed/vcpkg/pkgs/boost-static-string_x64-windows/include/boost/static_string.hpp
+D:/Programming/C++/BoostTest/vcpkg_installed/vcpkg/pkgs/boost-static-string_x64-windows/lib/cmake/boost_static_string-1.85.0/boost_static_string-targets.cmake
+D:/Programming/C++/BoostTest/vcpkg_installed/vcpkg/pkgs/boost-static-string_x64-windows/lib/cmake/boost_static_string-1.85.0/boost_static_string-config.cmake
+D:/Programming/C++/BoostTest/vcpkg_installed/vcpkg/pkgs/boost-static-string_x64-windows/lib/cmake/boost_static_string-1.85.0/boost_static_string-config-version.cmake

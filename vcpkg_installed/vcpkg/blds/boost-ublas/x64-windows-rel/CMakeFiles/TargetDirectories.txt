@@ -1,0 +1,14 @@
+D:/Programming/C++/BoostTest/vcpkg_installed/vcpkg/blds/boost-ublas/x64-windows-rel/CMakeFiles/tests.dir
+D:/Programming/C++/BoostTest/vcpkg_installed/vcpkg/blds/boost-ublas/x64-windows-rel/CMakeFiles/check.dir
+D:/Programming/C++/BoostTest/vcpkg_installed/vcpkg/blds/boost-ublas/x64-windows-rel/CMakeFiles/tests-quick.dir
+D:/Programming/C++/BoostTest/vcpkg_installed/vcpkg/blds/boost-ublas/x64-windows-rel/CMakeFiles/check-quick.dir
+D:/Programming/C++/BoostTest/vcpkg_installed/vcpkg/blds/boost-ublas/x64-windows-rel/CMakeFiles/edit_cache.dir
+D:/Programming/C++/BoostTest/vcpkg_installed/vcpkg/blds/boost-ublas/x64-windows-rel/CMakeFiles/rebuild_cache.dir
+D:/Programming/C++/BoostTest/vcpkg_installed/vcpkg/blds/boost-ublas/x64-windows-rel/CMakeFiles/list_install_components.dir
+D:/Programming/C++/BoostTest/vcpkg_installed/vcpkg/blds/boost-ublas/x64-windows-rel/CMakeFiles/install.dir
+D:/Programming/C++/BoostTest/vcpkg_installed/vcpkg/blds/boost-ublas/x64-windows-rel/CMakeFiles/install/local.dir
+D:/Programming/C++/BoostTest/vcpkg_installed/vcpkg/blds/boost-ublas/x64-windows-rel/libs/numeric/ublas/CMakeFiles/edit_cache.dir
+D:/Programming/C++/BoostTest/vcpkg_installed/vcpkg/blds/boost-ublas/x64-windows-rel/libs/numeric/ublas/CMakeFiles/rebuild_cache.dir
+D:/Programming/C++/BoostTest/vcpkg_installed/vcpkg/blds/boost-ublas/x64-windows-rel/libs/numeric/ublas/CMakeFiles/list_install_components.dir
+D:/Programming/C++/BoostTest/vcpkg_installed/vcpkg/blds/boost-ublas/x64-windows-rel/libs/numeric/ublas/CMakeFiles/install.dir
+D:/Programming/C++/BoostTest/vcpkg_installed/vcpkg/blds/boost-ublas/x64-windows-rel/libs/numeric/ublas/CMakeFiles/install/local.dir

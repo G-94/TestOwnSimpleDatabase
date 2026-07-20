@@ -1,0 +1,110 @@
+{
+  "$schema": "https://raw.githubusercontent.com/spdx/spdx-spec/v2.2.1/schemas/spdx-schema.json",
+  "spdxVersion": "SPDX-2.2",
+  "dataLicense": "CC0-1.0",
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "documentNamespace": "https://spdx.org/spdxdocs/boost-type-erasure-x64-windows-1.85.0#1-f021bd4e-64a3-4e53-90c8-1a833589fb6d",
+  "name": "boost-type-erasure:x64-windows@1.85.0#1 176197453b57e57a061dcdd981249da1ae165890ace9ae9589d8db2f231109b3",
+  "creationInfo": {
+    "creators": [
+      "Tool: vcpkg-2024-09-30-ab8988503c7cffabfd440b243a383c0a352a023d"
+    ],
+    "created": "2026-07-16T17:37:20Z"
+  },
+  "relationships": [
+    {
+      "spdxElementId": "SPDXRef-port",
+      "relationshipType": "GENERATES",
+      "relatedSpdxElement": "SPDXRef-binary"
+    },
+    {
+      "spdxElementId": "SPDXRef-port",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-file-0"
+    },
+    {
+      "spdxElementId": "SPDXRef-port",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-file-1"
+    },
+    {
+      "spdxElementId": "SPDXRef-binary",
+      "relationshipType": "GENERATED_FROM",
+      "relatedSpdxElement": "SPDXRef-port"
+    },
+    {
+      "spdxElementId": "SPDXRef-file-0",
+      "relationshipType": "CONTAINED_BY",
+      "relatedSpdxElement": "SPDXRef-port"
+    },
+    {
+      "spdxElementId": "SPDXRef-file-1",
+      "relationshipType": "CONTAINED_BY",
+      "relatedSpdxElement": "SPDXRef-port"
+    }
+  ],
+  "packages": [
+    {
+      "name": "boost-type-erasure",
+      "SPDXID": "SPDXRef-port",
+      "versionInfo": "1.85.0#1",
+      "downloadLocation": "git+https://github.com/microsoft/vcpkg@6ea575222a40bb603eef76013245b4e9004ce1cd",
+      "homepage": "https://www.boost.org/libs/type_erasure",
+      "licenseConcluded": "BSL-1.0",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "description": "Boost type_erasure module",
+      "comment": "This is the port (recipe) consumed by vcpkg."
+    },
+    {
+      "name": "boost-type-erasure:x64-windows",
+      "SPDXID": "SPDXRef-binary",
+      "versionInfo": "176197453b57e57a061dcdd981249da1ae165890ace9ae9589d8db2f231109b3",
+      "downloadLocation": "NONE",
+      "licenseConcluded": "BSL-1.0",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "comment": "This is a binary package built by vcpkg."
+    },
+    {
+      "SPDXID": "SPDXRef-resource-1",
+      "name": "boostorg/type_erasure",
+      "downloadLocation": "git+https://github.com/boostorg/type_erasure@boost-1.85.0",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "checksums": [
+        {
+          "algorithm": "SHA512",
+          "checksumValue": "49d63f5d793c8fa67db25c98ec77f01c19bc8289cdea11b7f606033d2e202c47858630c45c49123fd909591365394e2b61eb5f69d700621364febe9884476f71"
+        }
+      ]
+    }
+  ],
+  "files": [
+    {
+      "fileName": "./C:/Users/PC/AppData/Local/vcpkg/registries/git-trees/6ea575222a40bb603eef76013245b4e9004ce1cd/portfile.cmake",
+      "SPDXID": "SPDXRef-file-0",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "68e95dd6100d59b6d290feaafae48081034a4092b16e79bdcff6bcd0932197a6"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./C:/Users/PC/AppData/Local/vcpkg/registries/git-trees/6ea575222a40bb603eef76013245b4e9004ce1cd/vcpkg.json",
+      "SPDXID": "SPDXRef-file-1",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "6d4fa2fc2c083a2ecc09464fcf6e7e0248435d683b94ecaa362e50ce1f4847c1"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "copyrightText": "NOASSERTION"
+    }
+  ]
+}

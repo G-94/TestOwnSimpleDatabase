@@ -1,0 +1,8 @@
+Package: boost-redis
+Version: 1.85.0
+Port-Version: 2
+Depends: boost-asio, boost-assert, boost-cmake, boost-config, boost-core, boost-headers, boost-mp11, boost-system, boost-throw-exception
+Architecture: x64-windows
+Multi-Arch: same
+Abi: 9c9a880dad4423156cb924559ff3f80bfac6d4f8579f4b73512379d0ce3bfecc
+Description: Boost redis module

@@ -1,0 +1,8 @@
+Package: boost-format
+Version: 1.85.0
+Port-Version: 1
+Depends: boost-assert, boost-cmake, boost-config, boost-core, boost-headers, boost-optional, boost-smart-ptr, boost-throw-exception, boost-utility
+Architecture: x64-windows
+Multi-Arch: same
+Abi: a42fc5303eabb262ce72681c497c45db38bf932e8a9f2ad669ab973dfb7f81b4
+Description: Boost format module

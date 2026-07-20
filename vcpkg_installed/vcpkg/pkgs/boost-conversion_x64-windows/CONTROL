@@ -1,0 +1,8 @@
+Package: boost-conversion
+Version: 1.85.0
+Port-Version: 1
+Depends: boost-assert, boost-cmake, boost-config, boost-headers, boost-smart-ptr, boost-throw-exception
+Architecture: x64-windows
+Multi-Arch: same
+Abi: 146226497df94119fb760e11efb0f1c372a9ee8f56ba480f9f48d0f06377a318
+Description: Boost conversion module

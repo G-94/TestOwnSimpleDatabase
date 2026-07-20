@@ -1,0 +1,5 @@
+# ninja log v6
+15	144	8059253962560946	libs/system/CMakeFiles/boost_system.dir/src/error_code.cpp.obj	d907e4c8a98559bf
+276	1516	8059253975857356	stage/bin/boost_system-vc143-mt-gd-x64-1_85.dll	42abafa3fd5972fc
+276	1516	8059253975857356	stage/lib/boost_system-vc143-mt-gd-x64-1_85.lib	42abafa3fd5972fc
+1516	2474	8059253977130911	CMakeFiles/install.util	e69e269c364f80b0

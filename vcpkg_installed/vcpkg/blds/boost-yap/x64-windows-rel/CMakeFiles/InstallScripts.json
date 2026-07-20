@@ -1,0 +1,8 @@
+{
+	"InstallScripts" : 
+	[
+		"D:/Programming/C++/BoostTest/vcpkg_installed/vcpkg/blds/boost-yap/x64-windows-rel/cmake_install.cmake",
+		"D:/Programming/C++/BoostTest/vcpkg_installed/vcpkg/blds/boost-yap/x64-windows-rel/libs/yap/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

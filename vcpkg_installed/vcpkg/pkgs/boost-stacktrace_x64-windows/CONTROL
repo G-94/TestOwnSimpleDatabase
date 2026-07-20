@@ -1,0 +1,15 @@
+Package: boost-stacktrace
+Version: 1.85.0
+Port-Version: 3
+Depends: boost-assert, boost-cmake, boost-config, boost-container-hash, boost-core, boost-headers, boost-predef, boost-winapi
+Architecture: x64-windows
+Multi-Arch: same
+Abi: 7a104c7f9aa35ccf83f4e431d3662deb29dc90640c755a4ac07d4e7a60384914
+Description: Boost stacktrace module
+Default-Features: windbg
+
+Package: boost-stacktrace
+Feature: windbg
+Architecture: x64-windows
+Multi-Arch: same
+Description: Use boost_stacktrace_windbg

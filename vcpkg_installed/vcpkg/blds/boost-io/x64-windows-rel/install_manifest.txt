@@ -1,0 +1,11 @@
+D:/Programming/C++/BoostTest/vcpkg_installed/vcpkg/pkgs/boost-io_x64-windows/include/boost/io/detail/buffer_fill.hpp
+D:/Programming/C++/BoostTest/vcpkg_installed/vcpkg/pkgs/boost-io_x64-windows/include/boost/io/detail/ostream_guard.hpp
+D:/Programming/C++/BoostTest/vcpkg_installed/vcpkg/pkgs/boost-io_x64-windows/include/boost/io/ios_state.hpp
+D:/Programming/C++/BoostTest/vcpkg_installed/vcpkg/pkgs/boost-io_x64-windows/include/boost/io/nullstream.hpp
+D:/Programming/C++/BoostTest/vcpkg_installed/vcpkg/pkgs/boost-io_x64-windows/include/boost/io/ostream_joiner.hpp
+D:/Programming/C++/BoostTest/vcpkg_installed/vcpkg/pkgs/boost-io_x64-windows/include/boost/io/ostream_put.hpp
+D:/Programming/C++/BoostTest/vcpkg_installed/vcpkg/pkgs/boost-io_x64-windows/include/boost/io/quoted.hpp
+D:/Programming/C++/BoostTest/vcpkg_installed/vcpkg/pkgs/boost-io_x64-windows/include/boost/io_fwd.hpp
+D:/Programming/C++/BoostTest/vcpkg_installed/vcpkg/pkgs/boost-io_x64-windows/lib/cmake/boost_io-1.85.0/boost_io-targets.cmake
+D:/Programming/C++/BoostTest/vcpkg_installed/vcpkg/pkgs/boost-io_x64-windows/lib/cmake/boost_io-1.85.0/boost_io-config.cmake
+D:/Programming/C++/BoostTest/vcpkg_installed/vcpkg/pkgs/boost-io_x64-windows/lib/cmake/boost_io-1.85.0/boost_io-config-version.cmake

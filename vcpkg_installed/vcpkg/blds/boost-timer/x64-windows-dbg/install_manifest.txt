@@ -1,0 +1,12 @@
+D:/Programming/C++/BoostTest/vcpkg_installed/vcpkg/pkgs/boost-timer_x64-windows/debug/include/boost/progress.hpp
+D:/Programming/C++/BoostTest/vcpkg_installed/vcpkg/pkgs/boost-timer_x64-windows/debug/include/boost/timer/config.hpp
+D:/Programming/C++/BoostTest/vcpkg_installed/vcpkg/pkgs/boost-timer_x64-windows/debug/include/boost/timer/progress_display.hpp
+D:/Programming/C++/BoostTest/vcpkg_installed/vcpkg/pkgs/boost-timer_x64-windows/debug/include/boost/timer/timer.hpp
+D:/Programming/C++/BoostTest/vcpkg_installed/vcpkg/pkgs/boost-timer_x64-windows/debug/include/boost/timer.hpp
+D:/Programming/C++/BoostTest/vcpkg_installed/vcpkg/pkgs/boost-timer_x64-windows/debug/lib/boost_timer-vc143-mt-gd-x64-1_85.lib
+D:/Programming/C++/BoostTest/vcpkg_installed/vcpkg/pkgs/boost-timer_x64-windows/debug/bin/boost_timer-vc143-mt-gd-x64-1_85.dll
+D:/Programming/C++/BoostTest/vcpkg_installed/vcpkg/pkgs/boost-timer_x64-windows/debug/bin/boost_timer-vc143-mt-gd-x64-1_85.pdb
+D:/Programming/C++/BoostTest/vcpkg_installed/vcpkg/pkgs/boost-timer_x64-windows/debug/lib/cmake/boost_timer-1.85.0/boost_timer-targets.cmake
+D:/Programming/C++/BoostTest/vcpkg_installed/vcpkg/pkgs/boost-timer_x64-windows/debug/lib/cmake/boost_timer-1.85.0/boost_timer-targets-debug.cmake
+D:/Programming/C++/BoostTest/vcpkg_installed/vcpkg/pkgs/boost-timer_x64-windows/debug/lib/cmake/boost_timer-1.85.0/boost_timer-config.cmake
+D:/Programming/C++/BoostTest/vcpkg_installed/vcpkg/pkgs/boost-timer_x64-windows/debug/lib/cmake/boost_timer-1.85.0/boost_timer-config-version.cmake

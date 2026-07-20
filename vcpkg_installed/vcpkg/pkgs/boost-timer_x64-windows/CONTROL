@@ -1,0 +1,8 @@
+Package: boost-timer
+Version: 1.85.0
+Port-Version: 2
+Depends: boost-cmake, boost-config, boost-headers, boost-io, boost-predef
+Architecture: x64-windows
+Multi-Arch: same
+Abi: 2838b7aa0c636e4ac24497d53a8dd400faea25578a4e90bedb3d3389dee14c72
+Description: Boost timer module

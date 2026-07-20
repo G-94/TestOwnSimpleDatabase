@@ -1,0 +1,6 @@
+D:/Programming/C++/BoostTest/vcpkg_installed/vcpkg/pkgs/boost-assert_x64-windows/include/boost/assert/source_location.hpp
+D:/Programming/C++/BoostTest/vcpkg_installed/vcpkg/pkgs/boost-assert_x64-windows/include/boost/assert.hpp
+D:/Programming/C++/BoostTest/vcpkg_installed/vcpkg/pkgs/boost-assert_x64-windows/include/boost/current_function.hpp
+D:/Programming/C++/BoostTest/vcpkg_installed/vcpkg/pkgs/boost-assert_x64-windows/lib/cmake/boost_assert-1.85.0/boost_assert-targets.cmake
+D:/Programming/C++/BoostTest/vcpkg_installed/vcpkg/pkgs/boost-assert_x64-windows/lib/cmake/boost_assert-1.85.0/boost_assert-config.cmake
+D:/Programming/C++/BoostTest/vcpkg_installed/vcpkg/pkgs/boost-assert_x64-windows/lib/cmake/boost_assert-1.85.0/boost_assert-config-version.cmake

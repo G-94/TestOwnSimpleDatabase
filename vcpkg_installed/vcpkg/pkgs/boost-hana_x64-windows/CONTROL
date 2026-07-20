@@ -1,0 +1,8 @@
+Package: boost-hana
+Version: 1.85.0
+Port-Version: 1
+Depends: boost-cmake, boost-config, boost-core, boost-fusion, boost-headers, boost-mpl, boost-tuple
+Architecture: x64-windows
+Multi-Arch: same
+Abi: 074947ee8a5a7e106e8b5f44aba1fc682314e43d0ae963f2e70fa6b4cec5f2f4
+Description: Boost hana module

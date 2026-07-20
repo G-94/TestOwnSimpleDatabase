@@ -1,0 +1,12 @@
+D:/Programming/C++/BoostTest/vcpkg_installed/vcpkg/pkgs/boost-stl-interfaces_x64-windows/include/boost/stl_interfaces/config.hpp
+D:/Programming/C++/BoostTest/vcpkg_installed/vcpkg/pkgs/boost-stl-interfaces_x64-windows/include/boost/stl_interfaces/detail/pipeable_view.hpp
+D:/Programming/C++/BoostTest/vcpkg_installed/vcpkg/pkgs/boost-stl-interfaces_x64-windows/include/boost/stl_interfaces/detail/view_closure.hpp
+D:/Programming/C++/BoostTest/vcpkg_installed/vcpkg/pkgs/boost-stl-interfaces_x64-windows/include/boost/stl_interfaces/fwd.hpp
+D:/Programming/C++/BoostTest/vcpkg_installed/vcpkg/pkgs/boost-stl-interfaces_x64-windows/include/boost/stl_interfaces/iterator_interface.hpp
+D:/Programming/C++/BoostTest/vcpkg_installed/vcpkg/pkgs/boost-stl-interfaces_x64-windows/include/boost/stl_interfaces/reverse_iterator.hpp
+D:/Programming/C++/BoostTest/vcpkg_installed/vcpkg/pkgs/boost-stl-interfaces_x64-windows/include/boost/stl_interfaces/sequence_container_interface.hpp
+D:/Programming/C++/BoostTest/vcpkg_installed/vcpkg/pkgs/boost-stl-interfaces_x64-windows/include/boost/stl_interfaces/view_adaptor.hpp
+D:/Programming/C++/BoostTest/vcpkg_installed/vcpkg/pkgs/boost-stl-interfaces_x64-windows/include/boost/stl_interfaces/view_interface.hpp
+D:/Programming/C++/BoostTest/vcpkg_installed/vcpkg/pkgs/boost-stl-interfaces_x64-windows/lib/cmake/boost_stl_interfaces-1.85.0/boost_stl_interfaces-targets.cmake
+D:/Programming/C++/BoostTest/vcpkg_installed/vcpkg/pkgs/boost-stl-interfaces_x64-windows/lib/cmake/boost_stl_interfaces-1.85.0/boost_stl_interfaces-config.cmake
+D:/Programming/C++/BoostTest/vcpkg_installed/vcpkg/pkgs/boost-stl-interfaces_x64-windows/lib/cmake/boost_stl_interfaces-1.85.0/boost_stl_interfaces-config-version.cmake

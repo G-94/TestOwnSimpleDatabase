@@ -1,0 +1,13 @@
+D:/Programming/C++/BoostTest/vcpkg_installed/vcpkg/pkgs/boost-functional_x64-windows/include/boost/functional/factory.hpp
+D:/Programming/C++/BoostTest/vcpkg_installed/vcpkg/pkgs/boost-functional_x64-windows/include/boost/functional/forward_adapter.hpp
+D:/Programming/C++/BoostTest/vcpkg_installed/vcpkg/pkgs/boost-functional_x64-windows/include/boost/functional/identity.hpp
+D:/Programming/C++/BoostTest/vcpkg_installed/vcpkg/pkgs/boost-functional_x64-windows/include/boost/functional/lightweight_forward_adapter.hpp
+D:/Programming/C++/BoostTest/vcpkg_installed/vcpkg/pkgs/boost-functional_x64-windows/include/boost/functional/overloaded_function/config.hpp
+D:/Programming/C++/BoostTest/vcpkg_installed/vcpkg/pkgs/boost-functional_x64-windows/include/boost/functional/overloaded_function/detail/base.hpp
+D:/Programming/C++/BoostTest/vcpkg_installed/vcpkg/pkgs/boost-functional_x64-windows/include/boost/functional/overloaded_function/detail/function_type.hpp
+D:/Programming/C++/BoostTest/vcpkg_installed/vcpkg/pkgs/boost-functional_x64-windows/include/boost/functional/overloaded_function.hpp
+D:/Programming/C++/BoostTest/vcpkg_installed/vcpkg/pkgs/boost-functional_x64-windows/include/boost/functional/value_factory.hpp
+D:/Programming/C++/BoostTest/vcpkg_installed/vcpkg/pkgs/boost-functional_x64-windows/include/boost/functional.hpp
+D:/Programming/C++/BoostTest/vcpkg_installed/vcpkg/pkgs/boost-functional_x64-windows/lib/cmake/boost_functional-1.85.0/boost_functional-targets.cmake
+D:/Programming/C++/BoostTest/vcpkg_installed/vcpkg/pkgs/boost-functional_x64-windows/lib/cmake/boost_functional-1.85.0/boost_functional-config.cmake
+D:/Programming/C++/BoostTest/vcpkg_installed/vcpkg/pkgs/boost-functional_x64-windows/lib/cmake/boost_functional-1.85.0/boost_functional-config-version.cmake

@@ -1,0 +1,5 @@
+# ninja log v6
+24	2966	8059266268789682	libs/type_erasure/CMakeFiles/boost_type_erasure.dir/src/dynamic_binding.cpp.obj	a478690342ebcc4c
+3127	5879	8059266323101915	stage/bin/boost_type_erasure-vc143-mt-gd-x64-1_85.dll	28bbc980d090f9d0
+3127	5879	8059266323101915	stage/lib/boost_type_erasure-vc143-mt-gd-x64-1_85.lib	28bbc980d090f9d0
+5880	7843	8059266327342886	CMakeFiles/install.util	6ff8601d22dcbde0

@@ -1,0 +1,8 @@
+Package: boost-stl-interfaces
+Version: 1.85.0
+Port-Version: 1
+Depends: boost-assert, boost-cmake, boost-config, boost-headers, boost-type-traits
+Architecture: x64-windows
+Multi-Arch: same
+Abi: e7a5a123d80129594958c8445d2f44669e484b678cdc18d7428e67ece3209ddd
+Description: Boost stl_interfaces module

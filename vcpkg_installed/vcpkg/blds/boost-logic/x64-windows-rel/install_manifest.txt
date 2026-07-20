@@ -1,0 +1,6 @@
+D:/Programming/C++/BoostTest/vcpkg_installed/vcpkg/pkgs/boost-logic_x64-windows/include/boost/logic/tribool.hpp
+D:/Programming/C++/BoostTest/vcpkg_installed/vcpkg/pkgs/boost-logic_x64-windows/include/boost/logic/tribool_fwd.hpp
+D:/Programming/C++/BoostTest/vcpkg_installed/vcpkg/pkgs/boost-logic_x64-windows/include/boost/logic/tribool_io.hpp
+D:/Programming/C++/BoostTest/vcpkg_installed/vcpkg/pkgs/boost-logic_x64-windows/lib/cmake/boost_logic-1.85.0/boost_logic-targets.cmake
+D:/Programming/C++/BoostTest/vcpkg_installed/vcpkg/pkgs/boost-logic_x64-windows/lib/cmake/boost_logic-1.85.0/boost_logic-config.cmake
+D:/Programming/C++/BoostTest/vcpkg_installed/vcpkg/pkgs/boost-logic_x64-windows/lib/cmake/boost_logic-1.85.0/boost_logic-config-version.cmake

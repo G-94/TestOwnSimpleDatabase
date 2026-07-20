@@ -1,0 +1,8 @@
+Package: boost-io
+Version: 1.85.0
+Port-Version: 1
+Depends: boost-cmake, boost-config, boost-headers
+Architecture: x64-windows
+Multi-Arch: same
+Abi: 4d42a595500728566c53ef2bb0ece0ee8eb36f9853f70dd6e19afdb9efe50902
+Description: Boost io module

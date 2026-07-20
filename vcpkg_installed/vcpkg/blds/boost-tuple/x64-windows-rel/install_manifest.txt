@@ -1,0 +1,7 @@
+D:/Programming/C++/BoostTest/vcpkg_installed/vcpkg/pkgs/boost-tuple_x64-windows/include/boost/tuple/detail/tuple_basic.hpp
+D:/Programming/C++/BoostTest/vcpkg_installed/vcpkg/pkgs/boost-tuple_x64-windows/include/boost/tuple/tuple.hpp
+D:/Programming/C++/BoostTest/vcpkg_installed/vcpkg/pkgs/boost-tuple_x64-windows/include/boost/tuple/tuple_comparison.hpp
+D:/Programming/C++/BoostTest/vcpkg_installed/vcpkg/pkgs/boost-tuple_x64-windows/include/boost/tuple/tuple_io.hpp
+D:/Programming/C++/BoostTest/vcpkg_installed/vcpkg/pkgs/boost-tuple_x64-windows/lib/cmake/boost_tuple-1.85.0/boost_tuple-targets.cmake
+D:/Programming/C++/BoostTest/vcpkg_installed/vcpkg/pkgs/boost-tuple_x64-windows/lib/cmake/boost_tuple-1.85.0/boost_tuple-config.cmake
+D:/Programming/C++/BoostTest/vcpkg_installed/vcpkg/pkgs/boost-tuple_x64-windows/lib/cmake/boost_tuple-1.85.0/boost_tuple-config-version.cmake

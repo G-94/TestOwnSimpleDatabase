@@ -1,0 +1,8 @@
+Package: boost-iterator
+Version: 1.85.0
+Port-Version: 1
+Depends: boost-assert, boost-cmake, boost-concept-check, boost-config, boost-core, boost-detail, boost-function-types, boost-fusion, boost-headers, boost-mpl, boost-optional, boost-smart-ptr, boost-static-assert, boost-type-traits, boost-utility
+Architecture: x64-windows
+Multi-Arch: same
+Abi: d059d1a8ec05cb2f5ba83827edf2d6db6f79fafb00caa18d4238b291c570a3b2
+Description: Boost iterator module

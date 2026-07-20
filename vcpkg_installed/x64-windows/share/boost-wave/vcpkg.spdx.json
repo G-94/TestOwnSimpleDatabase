@@ -1,0 +1,110 @@
+{
+  "$schema": "https://raw.githubusercontent.com/spdx/spdx-spec/v2.2.1/schemas/spdx-schema.json",
+  "spdxVersion": "SPDX-2.2",
+  "dataLicense": "CC0-1.0",
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "documentNamespace": "https://spdx.org/spdxdocs/boost-wave-x64-windows-1.85.0#2-055ef341-4d70-4b94-b2e2-9feefd7206aa",
+  "name": "boost-wave:x64-windows@1.85.0#2 3a8a2acb80d6e16bf24d6bab4f98b96f4a520052f65ffa4ac2a547a695b5dc4b",
+  "creationInfo": {
+    "creators": [
+      "Tool: vcpkg-2024-09-30-ab8988503c7cffabfd440b243a383c0a352a023d"
+    ],
+    "created": "2026-07-16T17:30:51Z"
+  },
+  "relationships": [
+    {
+      "spdxElementId": "SPDXRef-port",
+      "relationshipType": "GENERATES",
+      "relatedSpdxElement": "SPDXRef-binary"
+    },
+    {
+      "spdxElementId": "SPDXRef-port",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-file-0"
+    },
+    {
+      "spdxElementId": "SPDXRef-port",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-file-1"
+    },
+    {
+      "spdxElementId": "SPDXRef-binary",
+      "relationshipType": "GENERATED_FROM",
+      "relatedSpdxElement": "SPDXRef-port"
+    },
+    {
+      "spdxElementId": "SPDXRef-file-0",
+      "relationshipType": "CONTAINED_BY",
+      "relatedSpdxElement": "SPDXRef-port"
+    },
+    {
+      "spdxElementId": "SPDXRef-file-1",
+      "relationshipType": "CONTAINED_BY",
+      "relatedSpdxElement": "SPDXRef-port"
+    }
+  ],
+  "packages": [
+    {
+      "name": "boost-wave",
+      "SPDXID": "SPDXRef-port",
+      "versionInfo": "1.85.0#2",
+      "downloadLocation": "git+https://github.com/microsoft/vcpkg@a9faed2db21c3608527c509b0dd7ab63f92303ff",
+      "homepage": "https://www.boost.org/libs/wave",
+      "licenseConcluded": "BSL-1.0",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "description": "Boost wave module",
+      "comment": "This is the port (recipe) consumed by vcpkg."
+    },
+    {
+      "name": "boost-wave:x64-windows",
+      "SPDXID": "SPDXRef-binary",
+      "versionInfo": "3a8a2acb80d6e16bf24d6bab4f98b96f4a520052f65ffa4ac2a547a695b5dc4b",
+      "downloadLocation": "NONE",
+      "licenseConcluded": "BSL-1.0",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "comment": "This is a binary package built by vcpkg."
+    },
+    {
+      "SPDXID": "SPDXRef-resource-1",
+      "name": "boostorg/wave",
+      "downloadLocation": "git+https://github.com/boostorg/wave@boost-1.85.0",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "checksums": [
+        {
+          "algorithm": "SHA512",
+          "checksumValue": "4514128df8fde022183db34d211271673c84dffa249dddbe9d05634e0d2cb5c28cb007341d329fb94bbed65ae4c7ec0146f8dfa8c1bc436a8b695f0edc82ad55"
+        }
+      ]
+    }
+  ],
+  "files": [
+    {
+      "fileName": "./C:/Users/PC/AppData/Local/vcpkg/registries/git-trees/a9faed2db21c3608527c509b0dd7ab63f92303ff/portfile.cmake",
+      "SPDXID": "SPDXRef-file-0",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "8b567b91bf148ef29c18ae1c3175bf39ddce131da1a6cdd877c3a26e928cb2e6"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./C:/Users/PC/AppData/Local/vcpkg/registries/git-trees/a9faed2db21c3608527c509b0dd7ab63f92303ff/vcpkg.json",
+      "SPDXID": "SPDXRef-file-1",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "e05795fbeafc0051c9b8e287d88ac7781c6e649052eb3daec2077afc5987d830"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "copyrightText": "NOASSERTION"
+    }
+  ]
+}

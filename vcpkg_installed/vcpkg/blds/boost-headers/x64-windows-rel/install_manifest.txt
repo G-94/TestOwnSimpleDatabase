@@ -1,0 +1,4 @@
+D:/Programming/C++/BoostTest/vcpkg_installed/vcpkg/pkgs/boost-headers_x64-windows/include/boost/headers/.gitkeep
+D:/Programming/C++/BoostTest/vcpkg_installed/vcpkg/pkgs/boost-headers_x64-windows/lib/cmake/boost_headers-1.85.0/boost_headers-targets.cmake
+D:/Programming/C++/BoostTest/vcpkg_installed/vcpkg/pkgs/boost-headers_x64-windows/lib/cmake/boost_headers-1.85.0/boost_headers-config.cmake
+D:/Programming/C++/BoostTest/vcpkg_installed/vcpkg/pkgs/boost-headers_x64-windows/lib/cmake/boost_headers-1.85.0/boost_headers-config-version.cmake

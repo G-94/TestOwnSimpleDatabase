@@ -1,0 +1,110 @@
+{
+  "$schema": "https://raw.githubusercontent.com/spdx/spdx-spec/v2.2.1/schemas/spdx-schema.json",
+  "spdxVersion": "SPDX-2.2",
+  "dataLicense": "CC0-1.0",
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "documentNamespace": "https://spdx.org/spdxdocs/boost-hana-x64-windows-1.85.0#1-efbeba87-c9af-4cc2-a863-151bb78316e5",
+  "name": "boost-hana:x64-windows@1.85.0#1 074947ee8a5a7e106e8b5f44aba1fc682314e43d0ae963f2e70fa6b4cec5f2f4",
+  "creationInfo": {
+    "creators": [
+      "Tool: vcpkg-2024-09-30-ab8988503c7cffabfd440b243a383c0a352a023d"
+    ],
+    "created": "2026-07-16T17:15:19Z"
+  },
+  "relationships": [
+    {
+      "spdxElementId": "SPDXRef-port",
+      "relationshipType": "GENERATES",
+      "relatedSpdxElement": "SPDXRef-binary"
+    },
+    {
+      "spdxElementId": "SPDXRef-port",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-file-0"
+    },
+    {
+      "spdxElementId": "SPDXRef-port",
+      "relationshipType": "CONTAINS",
+      "relatedSpdxElement": "SPDXRef-file-1"
+    },
+    {
+      "spdxElementId": "SPDXRef-binary",
+      "relationshipType": "GENERATED_FROM",
+      "relatedSpdxElement": "SPDXRef-port"
+    },
+    {
+      "spdxElementId": "SPDXRef-file-0",
+      "relationshipType": "CONTAINED_BY",
+      "relatedSpdxElement": "SPDXRef-port"
+    },
+    {
+      "spdxElementId": "SPDXRef-file-1",
+      "relationshipType": "CONTAINED_BY",
+      "relatedSpdxElement": "SPDXRef-port"
+    }
+  ],
+  "packages": [
+    {
+      "name": "boost-hana",
+      "SPDXID": "SPDXRef-port",
+      "versionInfo": "1.85.0#1",
+      "downloadLocation": "git+https://github.com/microsoft/vcpkg@f2c00b2bb8c219f9c55028caa6deeaffa8a260ca",
+      "homepage": "https://www.boost.org/libs/hana",
+      "licenseConcluded": "BSL-1.0",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "description": "Boost hana module",
+      "comment": "This is the port (recipe) consumed by vcpkg."
+    },
+    {
+      "name": "boost-hana:x64-windows",
+      "SPDXID": "SPDXRef-binary",
+      "versionInfo": "074947ee8a5a7e106e8b5f44aba1fc682314e43d0ae963f2e70fa6b4cec5f2f4",
+      "downloadLocation": "NONE",
+      "licenseConcluded": "BSL-1.0",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "comment": "This is a binary package built by vcpkg."
+    },
+    {
+      "SPDXID": "SPDXRef-resource-1",
+      "name": "boostorg/hana",
+      "downloadLocation": "git+https://github.com/boostorg/hana@boost-1.85.0",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "checksums": [
+        {
+          "algorithm": "SHA512",
+          "checksumValue": "addcbeb1427b1e85aed9fbb8084c0de9e0acab3d1fb721d4f7b6c20b00d875c4b5aa97b7493c06ebbe5eb6ffea3d66f2845283ede5eb46acc9576ca7a4615685"
+        }
+      ]
+    }
+  ],
+  "files": [
+    {
+      "fileName": "./C:/Users/PC/AppData/Local/vcpkg/registries/git-trees/f2c00b2bb8c219f9c55028caa6deeaffa8a260ca/portfile.cmake",
+      "SPDXID": "SPDXRef-file-0",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "b7ca8e6d64eea24dd2339594e84f32f2060a2f1a38db53d5e105da29d4dc3ba3"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "copyrightText": "NOASSERTION"
+    },
+    {
+      "fileName": "./C:/Users/PC/AppData/Local/vcpkg/registries/git-trees/f2c00b2bb8c219f9c55028caa6deeaffa8a260ca/vcpkg.json",
+      "SPDXID": "SPDXRef-file-1",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "d57dd306ae7a2f53079eb24bfd734dc8f8247feb3f2aae066f010386661aecc7"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "copyrightText": "NOASSERTION"
+    }
+  ]
+}

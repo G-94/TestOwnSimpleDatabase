@@ -1,0 +1,16 @@
+# ninja log v6
+238	1895	8059262029253487	libs/wave/CMakeFiles/boost_wave.dir/src/cpplexer/re2clex/cpp_re.cpp.obj	51b5adef39fa923b
+228	2021	8059262029153463	libs/wave/CMakeFiles/boost_wave.dir/src/wave_config_constant.cpp.obj	4777cc27b9fadf4d
+186	2037	8059262028733364	libs/wave/CMakeFiles/boost_wave.dir/src/token_ids.cpp.obj	af2eba30b58b03ab
+233	2656	8059262029203477	libs/wave/CMakeFiles/boost_wave.dir/src/cpplexer/re2clex/aq.cpp.obj	9e3a1d9fe4dceef9
+204	6671	8059262028913407	libs/wave/CMakeFiles/boost_wave.dir/src/instantiate_has_include_grammar.cpp.obj	6924bd71363809f3
+194	6880	8059262028813395	libs/wave/CMakeFiles/boost_wave.dir/src/instantiate_cpp_literalgrs.cpp.obj	a7c3feca7ca2220d
+218	7578	8059262029053450	libs/wave/CMakeFiles/boost_wave.dir/src/instantiate_re2c_lexer_str.cpp.obj	69bc6d1dfcb8467d
+214	7850	8059262029013442	libs/wave/CMakeFiles/boost_wave.dir/src/instantiate_predef_macros.cpp.obj	bd3e04ef3295d4c0
+189	7981	8059262028763376	libs/wave/CMakeFiles/boost_wave.dir/src/instantiate_defined_grammar.cpp.obj	9fa3574339aa7ac9
+30	8251	8059262028683358	libs/wave/CMakeFiles/boost_wave.dir/src/instantiate_re2c_lexer.cpp.obj	50fca4faf9d31d45
+223	8534	8059262029103448	libs/wave/CMakeFiles/boost_wave.dir/src/instantiate_cpp_grammar.cpp.obj	4f3aa89e656b3c0a
+198	9158	8059262028853395	libs/wave/CMakeFiles/boost_wave.dir/src/instantiate_cpp_exprgrammar.cpp.obj	741dbee24c9b0b33
+9159	14999	8059262171789023	stage/bin/boost_wave-vc143-mt-gd-x64-1_85.dll	d6199f6303f8fcb2
+9159	14999	8059262171789023	stage/lib/boost_wave-vc143-mt-gd-x64-1_85.lib	d6199f6303f8fcb2
+15000	20328	8059262176870154	CMakeFiles/install.util	eb689756ceb4e328

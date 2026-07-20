@@ -1,0 +1,15 @@
+D:/Programming/C++/BoostTest/vcpkg_installed/vcpkg/blds/boost-coroutine/x64-windows-dbg/CMakeFiles/tests.dir
+D:/Programming/C++/BoostTest/vcpkg_installed/vcpkg/blds/boost-coroutine/x64-windows-dbg/CMakeFiles/check.dir
+D:/Programming/C++/BoostTest/vcpkg_installed/vcpkg/blds/boost-coroutine/x64-windows-dbg/CMakeFiles/tests-quick.dir
+D:/Programming/C++/BoostTest/vcpkg_installed/vcpkg/blds/boost-coroutine/x64-windows-dbg/CMakeFiles/check-quick.dir
+D:/Programming/C++/BoostTest/vcpkg_installed/vcpkg/blds/boost-coroutine/x64-windows-dbg/CMakeFiles/edit_cache.dir
+D:/Programming/C++/BoostTest/vcpkg_installed/vcpkg/blds/boost-coroutine/x64-windows-dbg/CMakeFiles/rebuild_cache.dir
+D:/Programming/C++/BoostTest/vcpkg_installed/vcpkg/blds/boost-coroutine/x64-windows-dbg/CMakeFiles/list_install_components.dir
+D:/Programming/C++/BoostTest/vcpkg_installed/vcpkg/blds/boost-coroutine/x64-windows-dbg/CMakeFiles/install.dir
+D:/Programming/C++/BoostTest/vcpkg_installed/vcpkg/blds/boost-coroutine/x64-windows-dbg/CMakeFiles/install/local.dir
+D:/Programming/C++/BoostTest/vcpkg_installed/vcpkg/blds/boost-coroutine/x64-windows-dbg/libs/coroutine/CMakeFiles/boost_coroutine.dir
+D:/Programming/C++/BoostTest/vcpkg_installed/vcpkg/blds/boost-coroutine/x64-windows-dbg/libs/coroutine/CMakeFiles/edit_cache.dir
+D:/Programming/C++/BoostTest/vcpkg_installed/vcpkg/blds/boost-coroutine/x64-windows-dbg/libs/coroutine/CMakeFiles/rebuild_cache.dir
+D:/Programming/C++/BoostTest/vcpkg_installed/vcpkg/blds/boost-coroutine/x64-windows-dbg/libs/coroutine/CMakeFiles/list_install_components.dir
+D:/Programming/C++/BoostTest/vcpkg_installed/vcpkg/blds/boost-coroutine/x64-windows-dbg/libs/coroutine/CMakeFiles/install.dir
+D:/Programming/C++/BoostTest/vcpkg_installed/vcpkg/blds/boost-coroutine/x64-windows-dbg/libs/coroutine/CMakeFiles/install/local.dir
