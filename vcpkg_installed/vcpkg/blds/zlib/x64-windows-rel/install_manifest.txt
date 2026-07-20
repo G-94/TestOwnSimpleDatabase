@@ -1,4 +1,0 @@
-D:/Programming/C++/BoostTest/vcpkg_installed/vcpkg/pkgs/zlib_x64-windows/lib/zlib.lib
-D:/Programming/C++/BoostTest/vcpkg_installed/vcpkg/pkgs/zlib_x64-windows/bin/zlib1.dll
-D:/Programming/C++/BoostTest/vcpkg_installed/vcpkg/pkgs/zlib_x64-windows/include/zconf.h
-D:/Programming/C++/BoostTest/vcpkg_installed/vcpkg/pkgs/zlib_x64-windows/include/zlib.h

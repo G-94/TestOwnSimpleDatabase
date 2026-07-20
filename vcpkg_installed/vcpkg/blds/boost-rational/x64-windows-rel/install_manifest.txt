@@ -1,4 +1,0 @@
-D:/Programming/C++/BoostTest/vcpkg_installed/vcpkg/pkgs/boost-rational_x64-windows/include/boost/rational.hpp
-D:/Programming/C++/BoostTest/vcpkg_installed/vcpkg/pkgs/boost-rational_x64-windows/lib/cmake/boost_rational-1.85.0/boost_rational-targets.cmake
-D:/Programming/C++/BoostTest/vcpkg_installed/vcpkg/pkgs/boost-rational_x64-windows/lib/cmake/boost_rational-1.85.0/boost_rational-config.cmake
-D:/Programming/C++/BoostTest/vcpkg_installed/vcpkg/pkgs/boost-rational_x64-windows/lib/cmake/boost_rational-1.85.0/boost_rational-config-version.cmake

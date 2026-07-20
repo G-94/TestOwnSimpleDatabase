@@ -1,8 +1,0 @@
-{
-	"InstallScripts" : 
-	[
-		"D:/Programming/C++/BoostTest/vcpkg_installed/vcpkg/blds/boost-test/x64-windows-dbg/cmake_install.cmake",
-		"D:/Programming/C++/BoostTest/vcpkg_installed/vcpkg/blds/boost-test/x64-windows-dbg/libs/test/cmake_install.cmake"
-	],
-	"Parallel" : false
-}

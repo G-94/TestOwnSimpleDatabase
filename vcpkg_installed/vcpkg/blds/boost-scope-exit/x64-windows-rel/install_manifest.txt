@@ -1,4 +1,0 @@
-D:/Programming/C++/BoostTest/vcpkg_installed/vcpkg/pkgs/boost-scope-exit_x64-windows/include/boost/scope_exit.hpp
-D:/Programming/C++/BoostTest/vcpkg_installed/vcpkg/pkgs/boost-scope-exit_x64-windows/lib/cmake/boost_scope_exit-1.85.0/boost_scope_exit-targets.cmake
-D:/Programming/C++/BoostTest/vcpkg_installed/vcpkg/pkgs/boost-scope-exit_x64-windows/lib/cmake/boost_scope_exit-1.85.0/boost_scope_exit-config.cmake
-D:/Programming/C++/BoostTest/vcpkg_installed/vcpkg/pkgs/boost-scope-exit_x64-windows/lib/cmake/boost_scope_exit-1.85.0/boost_scope_exit-config-version.cmake

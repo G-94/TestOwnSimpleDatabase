@@ -1,8 +1,0 @@
-Package: boost-math
-Version: 1.85.0
-Port-Version: 2
-Depends: boost-assert, boost-cmake, boost-concept-check, boost-config, boost-core, boost-headers, boost-integer, boost-lexical-cast, boost-predef, boost-random, boost-static-assert, boost-throw-exception
-Architecture: x64-windows
-Multi-Arch: same
-Abi: 53a2e14bc8e5c73c0cb767bfafeca42f64fb10c45d0b5323a2df1dd1f62e3705
-Description: Boost math module

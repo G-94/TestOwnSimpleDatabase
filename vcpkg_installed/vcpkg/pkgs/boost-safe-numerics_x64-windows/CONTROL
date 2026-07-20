@@ -1,8 +1,0 @@
-Package: boost-safe-numerics
-Version: 1.85.0
-Port-Version: 1
-Depends: boost-cmake, boost-concept-check, boost-config, boost-core, boost-headers, boost-integer, boost-logic, boost-mp11
-Architecture: x64-windows
-Multi-Arch: same
-Abi: 0a9495664c77085e1f7217dfe53f4254785524b8100c616d9ec9ff628e898f94
-Description: Boost safe_numerics module

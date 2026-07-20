@@ -1,6 +1,0 @@
-# ninja log v6
-16	747	8059266521097771	libs/timer/CMakeFiles/boost_timer.dir/src/auto_timers_construction.cpp.obj	6724d10b1e80d01c
-138	1402	8059266521157789	libs/timer/CMakeFiles/boost_timer.dir/src/cpu_timer.cpp.obj	a76d596e18eb20a4
-1404	3468	8059266552074742	stage/bin/boost_timer-vc143-mt-gd-x64-1_85.dll	b9692e5a6784456d
-1404	3468	8059266552074742	stage/lib/boost_timer-vc143-mt-gd-x64-1_85.lib	b9692e5a6784456d
-3468	4240	8059266554455281	CMakeFiles/install.util	4fb921b2d15205c

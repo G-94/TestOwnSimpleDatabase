@@ -1,8 +1,0 @@
-Package: boost-system
-Version: 1.85.0
-Port-Version: 1
-Depends: boost-assert, boost-cmake, boost-config, boost-headers, boost-throw-exception, boost-variant2, boost-winapi
-Architecture: x64-windows
-Multi-Arch: same
-Abi: 49790daa23746504421a92377ba5d3b1ee91c11d70d3acf85b71c3ef401afd49
-Description: Boost system module

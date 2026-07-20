@@ -1,6 +1,0 @@
-D:/Programming/C++/BoostTest/vcpkg_installed/vcpkg/pkgs/boost-tokenizer_x64-windows/include/boost/tokenizer.hpp
-D:/Programming/C++/BoostTest/vcpkg_installed/vcpkg/pkgs/boost-tokenizer_x64-windows/include/boost/token_functions.hpp
-D:/Programming/C++/BoostTest/vcpkg_installed/vcpkg/pkgs/boost-tokenizer_x64-windows/include/boost/token_iterator.hpp
-D:/Programming/C++/BoostTest/vcpkg_installed/vcpkg/pkgs/boost-tokenizer_x64-windows/lib/cmake/boost_tokenizer-1.85.0/boost_tokenizer-targets.cmake
-D:/Programming/C++/BoostTest/vcpkg_installed/vcpkg/pkgs/boost-tokenizer_x64-windows/lib/cmake/boost_tokenizer-1.85.0/boost_tokenizer-config.cmake
-D:/Programming/C++/BoostTest/vcpkg_installed/vcpkg/pkgs/boost-tokenizer_x64-windows/lib/cmake/boost_tokenizer-1.85.0/boost_tokenizer-config-version.cmake

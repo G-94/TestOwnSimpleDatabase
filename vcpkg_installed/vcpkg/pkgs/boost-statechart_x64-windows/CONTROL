@@ -1,8 +1,0 @@
-Package: boost-statechart
-Version: 1.85.0
-Port-Version: 1
-Depends: boost-assert, boost-bind, boost-cmake, boost-config, boost-conversion, boost-core, boost-detail, boost-function, boost-headers, boost-mpl, boost-smart-ptr, boost-static-assert, boost-thread, boost-type-traits
-Architecture: x64-windows
-Multi-Arch: same
-Abi: 5740b17a05be3b719706ea7af0086d3830cc9a7caa468d43af37528be7f747a8
-Description: Boost statechart module

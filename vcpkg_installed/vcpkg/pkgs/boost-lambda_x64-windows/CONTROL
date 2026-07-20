@@ -1,8 +1,0 @@
-Package: boost-lambda
-Version: 1.85.0
-Port-Version: 1
-Depends: boost-bind, boost-cmake, boost-config, boost-core, boost-detail, boost-headers, boost-iterator, boost-mpl, boost-preprocessor, boost-tuple, boost-type-traits, boost-utility
-Architecture: x64-windows
-Multi-Arch: same
-Abi: 3519f2a80af6d90237cff64aa7d4faf67fe432285476e93c1a4d33ca250dae7a
-Description: Boost lambda module

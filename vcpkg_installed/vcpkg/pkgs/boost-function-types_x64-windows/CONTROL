@@ -1,8 +1,0 @@
-Package: boost-function-types
-Version: 1.85.0
-Port-Version: 1
-Depends: boost-cmake, boost-config, boost-core, boost-detail, boost-headers, boost-mpl, boost-preprocessor, boost-type-traits
-Architecture: x64-windows
-Multi-Arch: same
-Abi: e177d49745fade0d981645c5aad3118d243bda2242a24a46bcc6945b06ad5168
-Description: Boost function_types module

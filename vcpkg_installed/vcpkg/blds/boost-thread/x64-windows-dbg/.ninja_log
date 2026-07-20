@@ -1,9 +1,0 @@
-# ninja log v6
-31	120	8059257781282876	libs/thread/CMakeFiles/boost_thread.dir/src/win32/tss_pe.cpp.obj	376fb470f9ff873b
-28	731	8059257781262865	libs/thread/CMakeFiles/boost_thread.dir/src/win32/tss_dll.cpp.obj	595d71bac46d1b23
-37	784	8059257781342878	libs/thread/CMakeFiles/boost_thread.dir/src/future.cpp.obj	da58355c1248b7dd
-34	1028	8059257781312870	libs/thread/CMakeFiles/boost_thread.dir/src/win32/thread_primitives.cpp.obj	342fd74f47e29d51
-25	3853	8059257781222860	libs/thread/CMakeFiles/boost_thread.dir/src/win32/thread.cpp.obj	4ccd777c2cd65ea1
-3861	8679	8059257860630720	stage/bin/boost_thread-vc143-mt-gd-x64-1_85.dll	981fa6c7101f2f9c
-3861	8679	8059257860630720	stage/lib/boost_thread-vc143-mt-gd-x64-1_85.lib	981fa6c7101f2f9c
-8829	13822	8059257869262663	CMakeFiles/install.util	918503c370faec6d

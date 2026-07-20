@@ -1,8 +1,0 @@
-Package: boost-ublas
-Version: 1.85.0
-Port-Version: 1
-Depends: boost-cmake, boost-compute, boost-concept-check, boost-config, boost-core, boost-headers, boost-interval, boost-iterator, boost-mpl, boost-range, boost-serialization, boost-smart-ptr, boost-static-assert, boost-type-traits, boost-typeof
-Architecture: x64-windows
-Multi-Arch: same
-Abi: 8e570eea1bb371091a8c5288ba8a4cc669a5291651845e74a09a1d58e2416c4b
-Description: Boost ublas module

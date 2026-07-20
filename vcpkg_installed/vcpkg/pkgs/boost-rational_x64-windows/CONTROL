@@ -1,8 +1,0 @@
-Package: boost-rational
-Version: 1.85.0
-Port-Version: 1
-Depends: boost-assert, boost-cmake, boost-config, boost-core, boost-headers, boost-integer, boost-static-assert, boost-throw-exception, boost-type-traits, boost-utility
-Architecture: x64-windows
-Multi-Arch: same
-Abi: 575b4bd3302f1fac525cfd4d9fa9748eb8c2d935e44ffd4900bd5afd556eb092
-Description: Boost rational module

@@ -1,8 +1,0 @@
-Package: boost-config
-Version: 1.85.0
-Port-Version: 1
-Depends: boost-cmake, boost-headers
-Architecture: x64-windows
-Multi-Arch: same
-Abi: 79889d543c83e39f906d57c0fc229f7349bc33d03c77d0a9491ce4af7979840f
-Description: Boost config module
