@@ -100,6 +100,56 @@ bool database::remove_row(const std::string& row_name) noexcept
 	return true;
 }
 
+std::optional<Ordered_Row_Data_t> database::get_row(const std::string& key) noexcept
+{
+	if (!is_table_open()) return std::nullopt;
+	if (!is_row_exists(key)) return std::nullopt;
+
+	try {
+		Ordered_Row_Data_t result;
+
+		for (const auto& col : storage[current_table][key]) {
+			result.push_back(col.second);
+		}
+
+		return result;
+	}
+	catch (...) {
+		return std::nullopt;
+	}
+}
+
+std::optional<std::map<std::string, Ordered_Row_Data_t>> database::get_rows_if(const std::string& col_name,
+	std::function<bool(const std::any& val)> predicate) noexcept
+{
+	if (!is_table_open()) return std::nullopt;
+	if (!is_col_exists(col_name)) return std::nullopt;
+
+	try {
+		std::map<std::string, Ordered_Row_Data_t> result;
+
+		for (const auto& [row_name, row_data] : storage.at(current_table)) {
+			if (predicate(row_data.at(col_name))) {
+				auto added_row = get_row(row_name);
+				if (added_row == std::nullopt) return std::nullopt;
+
+				result.emplace(row_name, *added_row);
+			}
+		}
+		return result;
+	}
+	catch (...) {
+		return std::nullopt;
+	}
+}
+
+std::optional<std::any> database::get(const std::string& key, const std::string& col) const noexcept
+{
+	if (!is_table_open()) return std::nullopt;
+	if (!is_row_exists(key) || !is_col_exists(col)) return std::nullopt;
+	return storage.at(current_table).at(key).at(col);
+}
+
 const std::string& database::get_current_table_name() const noexcept
 {
 	return current_table;
@@ -189,7 +239,7 @@ const std::string get_type_of(const std::any& value) noexcept
 		return "string";
 	}
 	else if (value.type() == typeid(const char*)) {
-		return "const_char*";
+		return "string";
 	}
 	else if (value.type() == typeid(bool)) {
 		return "bool";

@@ -10,6 +10,14 @@ int main(int argc, char* argv[]) {
 #endif
 
 	DB_manager db("test_db.txt");
+
+#if true
+	std::cout << db.load() << std::endl;
+	std::cout << db.storage.open_table("users") << std::endl;
+	db.storage.insert_row<std::vector<std::any>>("3", { "Vasilyi", 13, 560.0f });
+#endif
+
+#if false
 	db.storage.add_table("users");
 	db.storage.open_table("users");
 
@@ -22,7 +30,7 @@ int main(int argc, char* argv[]) {
 	db.storage.insert_value<int>("1", "age", 16);
 	db.storage.insert_value<float>("1", "amount", 350.50f);
 
-	db.storage.insert_row<std::vector<std::any>>("2", {"Nikita", 22, 480.0f});
+	db.storage.insert_row<std::vector<std::any>>("2", {"Nikita", 22, 480.4f});
 	db.storage.insert_value<int>("2", "age", 24);
 
 	db.storage.add_table("second");
@@ -37,10 +45,12 @@ int main(int argc, char* argv[]) {
 	db.storage.insert_value<int>("1", "age", 16);
 	db.storage.insert_value<float>("1", "amount", 350.50f);
 
-	db.storage.insert_row<std::vector<std::any>>("2", { "Nikita", 22, 480.0f });
+	db.storage.insert_row<std::vector<std::any>>("2", { "Nikita", 22, 480.3f });
 	db.storage.insert_value<int>("2", "age", 24);
 
-	db.save();
+#endif
+
+	std::cout << db.save() << std::endl;
 
 	return 0;
 }

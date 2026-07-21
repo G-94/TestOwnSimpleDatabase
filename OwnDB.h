@@ -6,6 +6,8 @@
 #include <any>
 #include <optional>
 #include <ostream>
+#include <functional>
+
 #include <boost/range/algorithm/find.hpp>
 #include <boost/range/algorithm/find_if.hpp>
 #include <boost/type_index.hpp>
@@ -17,6 +19,8 @@ typedef std::map<std::string, Table_t> DB_t;
 typedef std::vector<std::pair<std::string, std::any>> Table_schema_t;
 typedef std::map<std::string, Table_schema_t> Schema_t;
 
+typedef std::vector<std::any> Ordered_Row_Data_t;
+
 template <typename T>
 concept Iterable = requires (T val) {
 	std::begin(val);
@@ -24,7 +28,6 @@ concept Iterable = requires (T val) {
 };
 
 std::ostream& operator << (std::ostream& os, const std::any& value);
-
 const std::string get_type_of(const std::any& value) noexcept;
 
 class database {
@@ -61,8 +64,11 @@ public:
 	template<typename T>
 	bool insert_value(const std::string& key, const std::string& col, const T& value) noexcept;
 
-	template<typename T>
-	std::optional<T> get(const std::string& key, const std::string& col) const noexcept;
+	std::optional<std::any> get(const std::string& key, const std::string& col) const noexcept;
+	std::optional<Ordered_Row_Data_t> get_row(const std::string& key) noexcept;
+
+	std::optional<std::map<std::string, Ordered_Row_Data_t>> get_rows_if(const std::string& col_name,
+		std::function<bool(const std::any& val)> predicate) noexcept;
 
 	const std::string& get_current_table_name() const noexcept;
 	std::optional<std::map<size_t, std::string>> get_column_order() const noexcept;
@@ -119,16 +125,18 @@ template<Iterable T>
 inline bool database::insert_row(const std::string& key, const T& iterable_value) noexcept
 {
 	if (!is_table_open()) return false;
+	if (is_row_exists(key)) return false;
 
 	try {
-		bool is_row_added = add_row(key);
-		if (!is_row_added) return false;
+		Row_t new_row;
 
 		auto schema_it = schema.at(current_table).begin();
 		for (const auto& val : iterable_value) {
-			storage[current_table][key][schema_it->first] = val;;
+			new_row[schema_it->first] = val;;
 			schema_it++;
 		}
+
+		storage[current_table].emplace(key, std::move(new_row));
 		return true;
 	}
 	catch (...) {
@@ -149,13 +157,5 @@ inline bool database::insert_value(const std::string& key, const std::string& co
 	catch (...) {
 		return false;
 	}
-}
-
-template<typename T>
-inline std::optional<T> database::get(const std::string& key, const std::string& col) const noexcept
-{
-	if (!is_table_open()) return std::nullopt;
-	if (!is_row_exists(key) || !is_col_exists(col)) return std::nullopt;
-	return std::any_cast<T>(storage.at(current_table).at(key).at(col));
 }
 
