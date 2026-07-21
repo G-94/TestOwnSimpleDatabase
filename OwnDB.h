@@ -132,7 +132,7 @@ inline bool database::insert_row(const std::string& key, const T& iterable_value
 
 		auto schema_it = schema.at(current_table).begin();
 		for (const auto& val : iterable_value) {
-			new_row[schema_it->first] = val;;
+			new_row[schema_it->first] = val;
 			schema_it++;
 		}
 

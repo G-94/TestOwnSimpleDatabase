@@ -80,8 +80,9 @@ bool database::remove_col(const std::string& col_name) noexcept
 {
 	if (!is_table_open()) return false;
 	
-	auto col_it = boost::range::find_if(schema[current_table], [&](const auto& pair) { return pair.first == col_name; });
-	if (col_it == schema[current_table].end()) return false;
+	auto& cols = schema[current_table];
+	auto col_it = boost::range::find_if(cols, [&](const auto& pair) { return pair.first == col_name; });
+	if (col_it == cols.end()) return false;
 
 	for (auto& row : storage[current_table]) {
 		row.second.erase(col_name);
@@ -89,7 +90,6 @@ bool database::remove_col(const std::string& col_name) noexcept
 
 	schema[current_table].erase(col_it);
 	return true;
-
 }
 
 bool database::remove_row(const std::string& row_name) noexcept
@@ -108,8 +108,16 @@ std::optional<Ordered_Row_Data_t> database::get_row(const std::string& key) noex
 	try {
 		Ordered_Row_Data_t result;
 
-		for (const auto& col : storage[current_table][key]) {
-			result.push_back(col.second);
+		auto col_order = get_column_order();
+		if (col_order == std::nullopt) return std::nullopt;
+
+		const auto& row = storage[current_table][key];
+
+		for (const auto& col : *col_order) {
+			auto it = row.find(col.second);
+			if (it != row.end()) {
+				result.push_back(it->second);
+			}
 		}
 
 		return result;
@@ -128,12 +136,22 @@ std::optional<std::map<std::string, Ordered_Row_Data_t>> database::get_rows_if(c
 	try {
 		std::map<std::string, Ordered_Row_Data_t> result;
 
-		for (const auto& [row_name, row_data] : storage.at(current_table)) {
-			if (predicate(row_data.at(col_name))) {
-				auto added_row = get_row(row_name);
-				if (added_row == std::nullopt) return std::nullopt;
+		auto col_order = get_column_order();
+		if (col_order == std::nullopt) return std::nullopt;
 
-				result.emplace(row_name, *added_row);
+		for (const auto& [row_name, row_data] : storage.at(current_table)) {
+			auto it = row_data.find(col_name);
+			if (it != row_data.end() && predicate(it->second)) {
+				Ordered_Row_Data_t ordered_row;
+
+				for (const auto& col : *col_order) {
+					auto col_it = row_data.find(col.second);
+					if (col_it != row_data.end()) {
+						ordered_row.push_back(col_it->second);
+					}
+				}
+
+				result.emplace(row_name, ordered_row);
 			}
 		}
 		return result;

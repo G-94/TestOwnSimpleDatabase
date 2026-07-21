@@ -26,13 +26,14 @@ public:
 
 	database storage;
 
-	DB_manager(const std::string& database_dir);
+	DB_manager(const std::string& database_dir_);
 	~DB_manager();
 
 	bool load() noexcept;
 	bool save() noexcept;
 
 	bool print_database() noexcept;
+	bool print_columns_data() noexcept;
 
 };
 

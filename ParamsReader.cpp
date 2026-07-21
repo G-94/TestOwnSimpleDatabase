@@ -2,47 +2,53 @@
 
 bool access_locker::get_access(const std::string& username, const std::string& password)
 {
-	users_data.clear();
-	users_data.seekg(0, std::ios::beg);
-
-	std::string existed_username;
-	while (users_data >> existed_username) {
-		std::string existed_password;
-		users_data >> existed_password;
-
-		try {
-			if (username == existed_username && password == existed_password) {
-				return true;
-			}
-		}
-		catch (const std::exception& ex) {
-			std::cerr << "ERORR WHILE SCANNING USER DATA: " << ex.what() << std::endl;
-		}
-	}
-
-	return false;
-}
-
-void access_locker::add_user(const std::string& username, const std::string& password)
-{
-	std::string new_data = username + " " + password;
-	users_data << new_data << std::endl;
-}
-
-access_locker::access_locker()
-{
-	users_data.open(USERS_DATA_DIR, std::ios::app | std::ios::in);
+	users_data.open(USERS_DATA_DIR, std::ios::in);
 
 	if (!users_data.is_open()) {
 		std::cerr << "ERROR WHILE OPENING: " << USERS_DATA_DIR << std::endl;
 		throw file_not_open();
 	}
+
+	try {
+		std::string existed_username;
+		while (users_data >> existed_username) {
+			std::string existed_password;
+			users_data >> existed_password;
+
+			if (username == existed_username && password == existed_password) {
+				users_data.close();
+				return true;
+			}
+		}
+	} 
+	catch (const std::exception& ex) {
+		std::cerr << "ERORR WHILE SCANNING USER DATA: " << ex.what() << std::endl;
+	}
+
+	users_data.close();
+	return false;
 }
 
-access_locker::~access_locker()
+void access_locker::add_user(const std::string& username, const std::string& password)
 {
+	users_data.open(USERS_DATA_DIR, std::ios::app);
+
+	if (!users_data.is_open()) {
+		std::cerr << "ERROR WHILE OPENING: " << USERS_DATA_DIR << std::endl;
+		throw file_not_open();
+	}
+
+	std::string new_data = username + " " + password;
+	users_data << new_data << std::endl;
+
 	users_data.close();
 }
+
+access_locker::access_locker()
+{}
+
+access_locker::~access_locker()
+{}
 
 bool access_locker::request_access_to_DB(const opt::variables_map& vm)
 {

@@ -1,8 +1,8 @@
 #include "DatabaseManager.h"
 
-DB_manager::DB_manager(const std::string& database_dir)
+DB_manager::DB_manager(const std::string& database_dir_)
 {
-	this->database_dir = database_dir;
+	database_dir = database_dir_;
 	storage = database();
 }
 
@@ -131,7 +131,7 @@ bool DB_manager::print_database()noexcept
 {
 	try {
 		for (const auto& [table_name, table] : storage) {
-			storage.open_table(table_name);
+			if (!storage.open_table(table_name)) return false;
 
 			//write tables name in out
 			std::cout << table_name << '\n';
@@ -170,6 +170,32 @@ bool DB_manager::print_database()noexcept
 
 			std::cout << "---\n";
 		}
+
+		return true;
+	}
+	catch (...) {
+		return false;
+	}
+}
+
+bool DB_manager::print_columns_data() noexcept
+{
+	try {
+		auto columns = storage.get_column_order();
+		if (columns == std::nullopt) return false;
+
+		for (const auto& col : *columns) {
+			auto type = storage.get_col_type(col.second);
+			std::cout << '\t' << col.second << " : ";
+			if (type != std::nullopt) {
+				std::cout << *type;
+			}
+			else {
+				std::cout << "<unknown>";
+			}
+		}
+
+		std::cout << '\n';
 
 		return true;
 	}
