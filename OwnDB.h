@@ -55,6 +55,8 @@ public:
 	bool remove_col(const std::string& col_name) noexcept;
 	bool remove_row(const std::string& row_name) noexcept;
 
+	void clear() noexcept;
+
 	template <Iterable T>
 	bool insert_value(const std::string& key, const T& iterable_value, size_t offset = 0) noexcept;
 

@@ -1,6 +1,4 @@
 ﻿#include "App.h"
-#include "DatabaseManager.h"
-#include <tuple>
 
 int main(int argc, char* argv[]) {
 

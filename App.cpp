@@ -27,8 +27,10 @@ bool App::execute_command(std::string command_line) noexcept
 			if (!is_operation_done) return false;
 		}
 		else if (main_command == "PRINT_DB") {
+			std::cout << std::endl;
 			bool is_operation_done = manager.print_database();
 			if (!is_operation_done) return false;
+			std::cout << std::endl;
 		}
 		else if (main_command == "ADD_COL") {
 			bool is_operation_done = manager.storage.add_col(splitted_line.at(1), set_type_by_string(splitted_line.at(2)));
@@ -58,6 +60,8 @@ bool App::execute_command(std::string command_line) noexcept
 			auto row = manager.storage.get_row(key);
 			if (row == std::nullopt) return false;
 
+			std::cout << std::endl;
+
 			bool is_operation_done = manager.print_columns_data();
 			if (!is_operation_done) return false;
 
@@ -65,7 +69,7 @@ bool App::execute_command(std::string command_line) noexcept
 			for (const auto& value : *row) {
 				std::cout << "\t\t" << value;
 			}
-			std::cout << std::endl;
+			std::cout << std::endl << std::endl;
 		}
 		else if (main_command == "GET_ROW_IF") {
 			std::string col_name = splitted_line.at(1);
@@ -79,6 +83,8 @@ bool App::execute_command(std::string command_line) noexcept
 			auto rows = manager.storage.get_rows_if(col_name, pred);
 			if (rows == std::nullopt) return false;
 
+			std::cout << std::endl;
+
 			bool is_operation_done = manager.print_columns_data();
 			if (!is_operation_done) return false;
 
@@ -89,6 +95,8 @@ bool App::execute_command(std::string command_line) noexcept
 				}
 				std::cout << '\n';
 			}
+
+			std::cout << std::endl;
 		}
 		else if (main_command == "GET_VAL") {
 			std::string key = splitted_line.at(1);
@@ -114,6 +122,29 @@ bool App::execute_command(std::string command_line) noexcept
 			if (col_type == std::nullopt) return false;
 
 			bool is_operation_done = manager.storage.insert_value(key, col, get_value_by_data(value, *col_type));
+			if (!is_operation_done) return false;
+		}
+		else if (main_command == "INSERT_VALUES") {
+			std::string key = splitted_line.at(1);
+			int offset = std::any_cast<int>(get_value_by_data(splitted_line.at(2), "int"));
+			std::vector<std::any> added_data;
+
+			auto cols_data = manager.storage.get_column_order();
+			if (cols_data == std::nullopt) return false;
+
+			auto data_it = splitted_line.begin() + 3;
+			auto cols_data_it = (*cols_data).begin();
+
+			while (data_it != splitted_line.end()) {
+				auto col_type = manager.storage.get_col_type((*cols_data_it).second);
+				if (col_type == std::nullopt) return false;
+				added_data.push_back(get_value_by_data(*data_it, *col_type));
+
+				++cols_data_it;
+				++data_it;
+			}
+
+			bool is_operation_done = manager.storage.insert_value(key, added_data, offset);
 			if (!is_operation_done) return false;
 		}
 		else if (main_command == "INSERT_ROW") {

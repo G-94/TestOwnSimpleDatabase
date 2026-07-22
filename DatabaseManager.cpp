@@ -19,6 +19,8 @@ bool DB_manager::load() noexcept
 			throw file_not_open();
 		}
 
+		storage.clear();
+
 		std::string temp;
 
 		//read tables name in cycle condition
@@ -129,9 +131,14 @@ bool DB_manager::save() noexcept
 
 bool DB_manager::print_database()noexcept
 {
+	std::string previous_table = storage.get_current_table_name();
+
 	try {
 		for (const auto& [table_name, table] : storage) {
-			if (!storage.open_table(table_name)) return false;
+			if (!storage.open_table(table_name)) {
+				storage.open_table(previous_table);
+				return false;
+			}
 
 			//write tables name in out
 			std::cout << table_name << '\n';
@@ -171,9 +178,11 @@ bool DB_manager::print_database()noexcept
 			std::cout << "---\n";
 		}
 
+		storage.open_table(previous_table);
 		return true;
 	}
 	catch (...) {
+		storage.open_table(previous_table);
 		return false;
 	}
 }

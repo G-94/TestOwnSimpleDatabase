@@ -100,6 +100,11 @@ bool database::remove_row(const std::string& row_name) noexcept
 	return true;
 }
 
+void database::clear() noexcept
+{
+	storage.clear();
+}
+
 std::optional<Ordered_Row_Data_t> database::get_row(const std::string& key) noexcept
 {
 	if (!is_table_open()) return std::nullopt;
